@@ -1,0 +1,40 @@
+
+.wine-gamma-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.wine-gamma-table th,
+.wine-gamma-table td {
+  border: 1px solid #ddd;
+  padding: 10px; /* Adjust padding for better spacing */
+}
+
+.wine-gamma-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.wine-gamma-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.wine-gamma-table tr:hover {
+  background-color: #e0e0e0;
+}
+
+.wine-gamma-table th,
+.wine-gamma-table td {
+  text-align: center;
+}
+
+/* Adjust column widths */
+.wine-gamma-table th:first-child,
+.wine-gamma-table td:first-child {
+  width: auto;
+}
+
+.wine-gamma-table th,
+.wine-gamma-table td {
+  width: 30%; /* Set a fixed width for other columns */
+}
